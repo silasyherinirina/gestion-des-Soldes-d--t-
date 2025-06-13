@@ -1,0 +1,39 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Documentation",
+        "description": "L5 Swagger Laravel API documentation",
+        "contact": {
+            "email": "support@example.com"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://my-default-host.com",
+            "description": "Serveur principal"
+        }
+    ],
+    "paths": {
+        "/api/hello": {
+            "get": {
+                "tags": [
+                    "Demo"
+                ],
+                "summary": "Message de bienvenue",
+                "operationId": "6b61a83bf58b6143c5b0d37a5b8a83d8",
+                "responses": {
+                    "200": {
+                        "description": "Réponse réussie"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Demo",
+            "description": "Demo"
+        }
+    ]
+}
